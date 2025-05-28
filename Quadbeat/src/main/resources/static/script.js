@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to get recommendations based on songId
     async function getRecommendations(songId) {
         try {
-            const response = await fetch(`/recommend?songId=${encodeURIComponent(songId)}&graphType=SONG_BASED&algorithm=BFS`);
+            const response = await fetch(`/recommend?songId=${encodeURIComponent(songId)}&graphType=ARTIST_BASED&algorithm=BFS`);
             if (!response.ok) {
                 const errorText = await response.text();
                 throw new Error(errorText || `HTTP error! status: ${response.status}`);
