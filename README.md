@@ -146,7 +146,7 @@ This project is for educational and demonstration purposes.
 
 ## Authors
 
-- [Your Name Here]
+- Mani Dhiman
 
 ---
 
